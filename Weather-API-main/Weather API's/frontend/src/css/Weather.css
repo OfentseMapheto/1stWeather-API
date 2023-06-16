@@ -1,0 +1,234 @@
+.wrapper
+{
+    width: 100;
+    height: 100vh;
+    background-color: deepskyblue;
+}
+
+.top
+{
+    width: 100%;
+    height: 150px;
+}
+
+#buttons
+{
+    padding-top: 40px;
+}
+
+#returnButton
+{
+    height: 40px;
+    width: 160px;
+    margin: auto;
+}
+
+#returnButton button
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px black;
+    background-color: white;
+    font-weight: 600;
+    color: darkblue;
+}
+
+#returnButton :hover
+{
+    background-color: paleturquoise;
+}
+
+#returnButton :focus
+{
+    background-color: turquoise;
+}
+
+.centre
+{
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.success
+{
+    height : 650px;
+}
+
+.locationName
+{
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.temperature
+{
+    margin-top: 25px;
+}
+
+.tempMain
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tempSecondary
+{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#tempHigh
+{
+    color: gray;
+}
+
+#tempDivider
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tempLow
+{
+    color: darkgray;
+}
+
+.weatherDesc
+{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.weatherIcon
+{
+    display: table-cell;
+    width: 600px;
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.humidWind
+{
+    margin-top: 40px;
+    font-size: 25px;
+}
+.humidWind div
+{
+    display: inline-block;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.humidWind div div
+{
+    display: block;
+    width: 100%;
+}
+
+#humidWindNames
+{
+    text-align: right;
+}
+
+#humidWindValues
+{
+    text-align: left;
+}
+
+#secondaryDivider
+{
+    width: 60px;
+}
+
+.invalid
+{
+    height: 300px
+}
+
+.paragraphContainer
+{
+    width: 65%;
+    margin: auto;
+}
+
+.errorNotice
+{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.errorDesc
+{
+    padding-top: 40px;
+    text-align: initial;
+}
+
+.loading
+{
+    height: 200px;
+}
+
+.inputCentre
+{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#welcome
+{
+    font-size: 40px;
+    color: white;
+}
+
+#instructions
+{
+    color: white;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+
+#zipCapture
+{
+    width: 80%;
+    margin: auto;
+}
+
+#zip
+{
+    width: 60%;
+    height: 20px;
+}
+
+#unitRadio
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.unitRadioButtons
+{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#zipSubmit
+{
+    width: 60%;
+    height: 40px;
+    color: white;
+    background-color: tomato;
+}
